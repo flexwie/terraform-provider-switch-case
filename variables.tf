@@ -6,8 +6,6 @@ variable "expression" {
 variable "cases" {
     description = "The strings you want to compare with the provided expression"
     default = {
-        "" = {
-            message = "You have to write and set your custom cases."
-        }
+        "" = ""
     }
 }
